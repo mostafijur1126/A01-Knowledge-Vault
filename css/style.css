@@ -12,6 +12,7 @@ body{
 }
 .container{
     max-width: 1360px;
+    margin: 0 auto;
 }
 
 /* ========== Common Css Start ============ */
@@ -53,3 +54,78 @@ body{
     color: #000000;
 }
 /* ========== Nav bar End ============ */
+/* ========== Banner Section Start ============ */
+#banner{
+    background: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-content{
+    text-align: center;
+    padding: 116px 0 180px 0;
+}
+.banner-content .banner-top-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content .banner-top-text .banner-t-text-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 8px 8px;
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    color: white;
+    margin: 16px 0;
+}
+.banner-content h1 .green{
+    color: #30B868;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner-content .banner-info{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+.banner-content .btn button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid #469165;
+    border-radius: 4px;
+    background-color: #469165;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: transparent;
+    color: #469165;
+    border: 1px solid #469165;
+    transition: all linear 0.3s;
+}
+.banner-content .bnner-btn{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.banner-content .bnner-btn .b-btn-left{
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* ========== Banner Section End ============ */
