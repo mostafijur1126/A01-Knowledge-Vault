@@ -32,6 +32,20 @@ body{
     border: 1px solid #469165;
     transition: all linear 0.3s;
 }
+
+.section-heading h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+.section-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    margin-top: 16px;
+}
 /* ========== Common Css End ============ */
 
 /* ========== Nav bar Start ============ */
@@ -129,3 +143,44 @@ body{
     border: 1px solid white;
 }
 /* ========== Banner Section End ============ */
+/* ========== Notes Section Start ============ */
+#Notes-Section{
+    background-color: #F7F6F2;
+    padding-top: 50px;
+}
+.note-box{
+    margin-top: 44px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    
+}
+.note-box .note-cards{
+    background-color: white;
+    box-shadow: 0 0  8px rgba(0, 0, 0, 0.171);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    padding: 69px 24px 21px ;
+}
+.note-cards .box-icon{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #F95555;
+}
+.note-box .note-cards h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 16px 0;
+}
+.note-box .note-cards p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+/* ========== Notes Section End ============ */
