@@ -255,3 +255,53 @@ body{
 }
 
 /* ========== Early Access Section End ============ */
+/* ========== Footer start ============ */
+#footer{
+    background-color: #001931;
+    padding-top: 120px;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-between ;
+    padding-bottom: 80px;
+}
+.social-links{
+    margin-right: 107px;
+}
+.social-links h5{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.social-links .f-icon-wrapper a{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 50px;
+}
+.social-links .f-icon-wrapper{
+    display: flex; 
+    gap: 16px;
+    margin-top: 16px;
+}
+.social-links .f-icon-wrapper a i{
+    font-weight: 300;
+    font-size: 15px;
+}
+.coppywrite-section{
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #e5e7eb42;
+}
+.coppywrite-section small{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+/* ========== Footer End ============ */
