@@ -157,7 +157,7 @@ body{
 }
 .note-box .note-cards{
     background-color: white;
-    box-shadow: 0 0  8px rgba(0, 0, 0, 0.171);
+    box-shadow: -1 0  8px rgba(0, 0, 0, 0.171);
     border-radius: 8px 8px 0 0;
     text-align: center;
     padding: 69px 24px 21px ;
@@ -184,3 +184,45 @@ body{
     color: #627382;
 }
 /* ========== Notes Section End ============ */
+/* ========== Second Brain Section Start ============ */
+#brain-section{
+    padding: 120px 0;
+}
+.brain-section-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.brain-section-wrapper .brain-info .brain-sec-heading .solution{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    text-align: left;
+    text-transform: uppercase;
+}
+.brain-section-wrapper .brain-info .brain-sec-heading h1{
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 16px;
+}
+.brain-section-wrapper .brain-info .brain-sec-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.brain-info .section-info-list p{
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.brain-info .section-info-list p i{
+    color: #30B868;
+}
+/* ========== Second Brain Section End ============ */
