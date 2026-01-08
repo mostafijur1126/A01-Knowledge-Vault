@@ -226,3 +226,32 @@ body{
     color: #30B868;
 }
 /* ========== Second Brain Section End ============ */
+/* ========== Early Access Section Start ============ */
+#early-access{
+    margin-bottom: 120px;
+}
+.early-access-info{
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 0;
+    border-radius: 12px;
+}
+.early-access-info .brain-section-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+.early-access-info .brain-section-heading p{
+    font-size: 16px;
+    line-height: 24px;
+    color:#627382 ;
+    margin: 16px 0 24px 0;
+}
+.early-access-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+/* ========== Early Access Section End ============ */
